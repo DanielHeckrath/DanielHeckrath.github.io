@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Test Post"
+date: "2015-03-15"
+fullview: true
+description: Style exploration
+---
+
+# This is a test post, too see how different element look in this theme
+
+## Second headline
+
+### Third headline
+
+Body Text
+
+{% highlight go %}
+package main
+
+import "log"
+
+func main() {
+    log.Println("Hello World")
+}
+{% endhighlight %}
+
+[Here comes a link](http://danielheckrath.github.com/#)
