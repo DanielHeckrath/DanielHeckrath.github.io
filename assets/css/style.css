@@ -51,6 +51,14 @@ article .share .btn {
   -webkit-transition:color .2s ease-out, background 1s ease-in;
   transition:color .2s ease-out, background 1s ease-in;
 }
+#contact-list li:hover .fa-github-alt,
+article .share .github-alt:hover {
+	color: #4183C4;
+}
+#contact-list li:hover .fa-google-plus,
+article .share .google-plus:hover {
+	color: #DD4B39;
+}
 #contact-list li:hover .fa-twitter,
 article .share .twitter:hover {
 	color: #00ACEE;
@@ -182,4 +190,3 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
-

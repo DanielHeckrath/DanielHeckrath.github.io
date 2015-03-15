@@ -17,8 +17,8 @@ defaults:
 description: My blog about programming related stuff
 author:
   name: Daniel Heckrath
-  email: daniel@codeserv.de
   github: DanielHeckrath
+  gplus: DanielHeckrath
   twitter: tchackie
   bio: Coding enthusiast
   email_md5: 22f830a757a7ea2f095c1c70850dde4f
