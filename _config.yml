@@ -1,11 +1,30 @@
-# Site settings
-title: Daniel Heckrath
-email: daniel@codeserv.de
-description: My blog about programming related stuff
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://danielheckrath.github.io" # the base hostname & protocol for your site
-twitter_username: tchackie
-github_username:  DanielHeckrath
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
 markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Daniel Heckrath
+
+description: My blog about programming related stuff
+author:
+  name: Daniel Heckrath
+  email: daniel@codeserv.de
+  github: DanielHeckrath
+  twitter: tchackie
+  bio: Your stylish, minimalist theme!
+  email_md5: 22f830a757a7ea2f095c1c70850dde4f
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
